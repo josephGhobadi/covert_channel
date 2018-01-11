@@ -56,13 +56,13 @@ The client can send up to 1024 characters each time including A-Z, 0-9 to the se
 
 The client draws each character of the message into a morse code and uses the urls in the blow table to send string to the server letter by letter.
 
-|                URL                         |Functionality                         |
-|----------------|-------------------------------|-----------------------------|
-|`/control/create`            |Indicates that the client wants to send a new message; after receiving this url by the server, it will create a new row in the message table and return that row to the client.|
+|                URL                      |Functionality                |
+|-----------------------------------------|-----------------------------|
+|`/control/create`      | Indicates that the client wants to send a new message; after receiving this url by the server, it will create a new row in the message table and return that row to the client.|
 |`/foo/{id}`            | After the server receives this message, it will create a new line in the message_word table that arranged with the value of its message_id equal to the id of requested url /control/create and put its zero_one 1.            |
 |`/bar/{id}`            | Just like /foo/{id} but zero_one=0 |
-|`/done/{id}`            | All of the zero and one related to the new character of desired message will stick together, and the result will be added to the string as the new character of related row's text field column in the messages table. |
-|`/control/show/{id}`            | Prints value of text column of the row from the messages table whose id == {id}. |
+|`/done/{id}`           | All of the zero and one related to the new character of desired message will stick together, and the result will be added to the string as the new character of related row's text field column in the messages table. |
+|`/control/show/{id}`   | Prints value of text column of the row from the messages table whose id == {id}. |
 
 
 ***e.g. : Client wants send "HI" to server***
