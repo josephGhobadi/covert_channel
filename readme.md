@@ -1,8 +1,8 @@
 # Http Covert Channel
 An http restful covert channel based on [libpoco](https://github.com/pocoproject/poco) and [libcurl](https://github.com/curl/curl) coded with C++11 that use the [morse code](https://en.wikipedia.org/wiki/Morse_code) as character transfer protocol.
-![enter image description here](https://lh3.googleusercontent.com/GIXr4-0IBQnzQna-wV37gslHdfi7n8awQPJMR4vDBPc1Zt2BOvG13v5RojjWrIT9gHKGf6sla3nNFCUhLSpyhsVbTLfHCpWKYdPf8DqXCaX8LyZ44w-rqaxYtxIUfpWxDPH9yhYhmNQMbEeXDYnm7CuJU9461eu08a12fzcYRa6-a7geu-JZiHVyHbiS636GZIfbY7pZpJ4zm03hqmNqLMriHJBkD04gRezQ4clto2b3KkaS2mA2ekxpfwp63oOy1XRse7VZZ1k-FRZBER9-DYPpJneWcT7xCj8ncZULngJI2lranoaW7L7eyVyyUXE47oKY7Ns4ubZ6NE2fnAZge2ALrmXr_G9h-zOxq7ZRaryKbR5Pzu44GgncUR1vFcUb7ZQBCuid1uRPFQO8Jw-_9ehaQ6WcEMO4d8I6cZZJt2rFEokaJgcprIowAJ2YtvkJ-agzPmjAo4j0qz02_trMFObu9hYebj9VcdWWOvsVprGSk5zMcsakyEc7iiqVBfctmklgtFiqXGGJ4DbEuvpDaEGDvkIBNyejSOrcskm11CI5pAO0z_Ik5ZBWtKaWGmRIlX25iauAEAPLrB7M_jA8euzMJvgpKL33Ph4DeQ=w978-h580-no)
+![enter image description here](http://uupload.ir/files/mgwx_cc.png)
 
-![enter image description here](https://lh3.googleusercontent.com/q71ID9Ki2qW-TeP8r4zjKKsRTBr6sjeU_BoJiFmBuRhU9bFn3fCNPqbMi2We0RotRjOxTGojBxoyeKFjVgdcWutkzsTddpXG0ankGopfKQixv0Ma6YjEvzvTJ5OXSNGdm9cebcyFT7rBsB1AKNtCa4zuTkug5xyeiwUlPnrL2PBE8h5UzBBirBuM3WUWt3BugY57MR2DdruxLVEK-3Ote9x3Cul9SFrtlX6KolopvYnunW3799Ekg0wPv0mopshGWrpHNY-a2Plqc7X_ooLlYge8dceSiVDmuNQnN4c3BMliITgpXC_lZ07POnycy6UTteZQi503xWXK1GovsJFcnFp5nnpsafKdmHNwRiuC9EuLlldOQE6eNapMUygxLsabMTkYVL7kbL4NJC96JSYliVmGKET2U-AfU3bakBKcNRQMwMT-9SbAoPE0eHD8FdSGBe9QdeQ14zkz4JEq2l_JhsDsaxrJG6pkU7x8nLmXG4aEUI5sMIMozuwCa0wsBUYzoKZfJY93wuCS6XF61l1Pz6rWFz8vnlceL-oX6xswrn8L_uOfgcfH1O92uaKlms71hTQEMQXm4pzfoP4y9RiNLRNTsU_ebH6BwflFRg=w450-h580-no)
+![enter image description here](http://uupload.ir/files/1glo_morse.png)
 # Usage
 
 1- After compiling the code for the intended platform, first run an instance of the program as the server with the following command in the linux Terminal or Windows command prompt:
